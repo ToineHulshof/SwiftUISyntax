@@ -3,11 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7816762413D4790066C9DC /* StructTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7816752413D4790066C9DC /* StructTranslator.swift */; };
+		2F781678241403700066C9DC /* ImportTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F781677241403700066C9DC /* ImportTranslator.swift */; };
 		2F8AB25224113DE900ABCE61 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AB25124113DE900ABCE61 /* main.swift */; };
+		2F8AB25A24113E3D00ABCE61 /* SwiftSyntax in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8AB25924113E3D00ABCE61 /* SwiftSyntax */; };
+		2FB359292415265E002218B8 /* ViewTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB359282415265E002218B8 /* ViewTypes.swift */; };
+		2FB54B8C241D3B220042A698 /* SwiftAST in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB54B8B241D3B220042A698 /* SwiftAST */; };
+		2FB54B8F241D3B370042A698 /* SwiftTransform in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB54B8E241D3B370042A698 /* SwiftTransform */; };
+		2FB54B9E241D3B920042A698 /* TokenizationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B91241D3B920042A698 /* TokenizationResult.swift */; };
+		2FB54B9F241D3B920042A698 /* TransformPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B93241D3B920042A698 /* TransformPlugin.swift */; };
+		2FB54BA0241D3B920042A698 /* FoundationMethodsTransformPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B94241D3B920042A698 /* FoundationMethodsTransformPlugin.swift */; };
+		2FB54BA1241D3B920042A698 /* CommentsAdditionTransformPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B95241D3B920042A698 /* CommentsAdditionTransformPlugin.swift */; };
+		2FB54BA2241D3B920042A698 /* XCTTestToJUnitTokenTransformPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B96241D3B920042A698 /* XCTTestToJUnitTokenTransformPlugin.swift */; };
+		2FB54BA3241D3B920042A698 /* Token+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B98241D3B920042A698 /* Token+Operations.swift */; };
+		2FB54BA4241D3B920042A698 /* EnumDeclaration+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B99241D3B920042A698 /* EnumDeclaration+Operations.swift */; };
+		2FB54BA5241D3B920042A698 /* AST+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9A241D3B920042A698 /* AST+Operations.swift */; };
+		2FB54BA6241D3B920042A698 /* KotlinTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9B241D3B920042A698 /* KotlinTokenizer.swift */; };
+		2FB54BA7241D3B920042A698 /* SwiftTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9C241D3B920042A698 /* SwiftTokenizer.swift */; };
+		2FB54BA8241D3B920042A698 /* TransformOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9D241D3B920042A698 /* TransformOptions.swift */; };
+		2FB54BAA241D5F770042A698 /* VisitTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54BA9241D5F770042A698 /* VisitTokens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +41,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F7816752413D4790066C9DC /* StructTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructTranslator.swift; sourceTree = "<group>"; };
+		2F781677241403700066C9DC /* ImportTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTranslator.swift; sourceTree = "<group>"; };
 		2F8AB24E24113DE900ABCE61 /* SwiftUISyntax */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftUISyntax; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8AB25124113DE900ABCE61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2FB359282415265E002218B8 /* ViewTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTypes.swift; sourceTree = "<group>"; };
+		2FB54B91241D3B920042A698 /* TokenizationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenizationResult.swift; sourceTree = "<group>"; };
+		2FB54B93241D3B920042A698 /* TransformPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformPlugin.swift; sourceTree = "<group>"; };
+		2FB54B94241D3B920042A698 /* FoundationMethodsTransformPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationMethodsTransformPlugin.swift; sourceTree = "<group>"; };
+		2FB54B95241D3B920042A698 /* CommentsAdditionTransformPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsAdditionTransformPlugin.swift; sourceTree = "<group>"; };
+		2FB54B96241D3B920042A698 /* XCTTestToJUnitTokenTransformPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTTestToJUnitTokenTransformPlugin.swift; sourceTree = "<group>"; };
+		2FB54B98241D3B920042A698 /* Token+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Token+Operations.swift"; sourceTree = "<group>"; };
+		2FB54B99241D3B920042A698 /* EnumDeclaration+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnumDeclaration+Operations.swift"; sourceTree = "<group>"; };
+		2FB54B9A241D3B920042A698 /* AST+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AST+Operations.swift"; sourceTree = "<group>"; };
+		2FB54B9B241D3B920042A698 /* KotlinTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KotlinTokenizer.swift; sourceTree = "<group>"; };
+		2FB54B9C241D3B920042A698 /* SwiftTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTokenizer.swift; sourceTree = "<group>"; };
+		2FB54B9D241D3B920042A698 /* TransformOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOptions.swift; sourceTree = "<group>"; };
+		2FB54BA9241D5F770042A698 /* VisitTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitTokens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8AB25A24113E3D00ABCE61 /* SwiftSyntax in Frameworks */,
+				2FB54B8F241D3B370042A698 /* SwiftTransform in Frameworks */,
+				2FB54B8C241D3B220042A698 /* SwiftAST in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				2F8AB25024113DE900ABCE61 /* SwiftUISyntax */,
+				2FB54B90241D3B920042A698 /* SwiftKotlinFramework */,
 				2F8AB24F24113DE900ABCE61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,8 +95,46 @@
 			isa = PBXGroup;
 			children = (
 				2F8AB25124113DE900ABCE61 /* main.swift */,
+				2F7816752413D4790066C9DC /* StructTranslator.swift */,
+				2FB359282415265E002218B8 /* ViewTypes.swift */,
+				2FB54BA9241D5F770042A698 /* VisitTokens.swift */,
+				2F781677241403700066C9DC /* ImportTranslator.swift */,
 			);
 			path = SwiftUISyntax;
+			sourceTree = "<group>";
+		};
+		2FB54B90241D3B920042A698 /* SwiftKotlinFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2FB54B91241D3B920042A698 /* TokenizationResult.swift */,
+				2FB54B92241D3B920042A698 /* plugins */,
+				2FB54B97241D3B920042A698 /* utils */,
+				2FB54B9B241D3B920042A698 /* KotlinTokenizer.swift */,
+				2FB54B9C241D3B920042A698 /* SwiftTokenizer.swift */,
+				2FB54B9D241D3B920042A698 /* TransformOptions.swift */,
+			);
+			path = SwiftKotlinFramework;
+			sourceTree = "<group>";
+		};
+		2FB54B92241D3B920042A698 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				2FB54B93241D3B920042A698 /* TransformPlugin.swift */,
+				2FB54B94241D3B920042A698 /* FoundationMethodsTransformPlugin.swift */,
+				2FB54B95241D3B920042A698 /* CommentsAdditionTransformPlugin.swift */,
+				2FB54B96241D3B920042A698 /* XCTTestToJUnitTokenTransformPlugin.swift */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		2FB54B97241D3B920042A698 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2FB54B98241D3B920042A698 /* Token+Operations.swift */,
+				2FB54B99241D3B920042A698 /* EnumDeclaration+Operations.swift */,
+				2FB54B9A241D3B920042A698 /* AST+Operations.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +153,11 @@
 			dependencies = (
 			);
 			name = SwiftUISyntax;
+			packageProductDependencies = (
+				2F8AB25924113E3D00ABCE61 /* SwiftSyntax */,
+				2FB54B8B241D3B220042A698 /* SwiftAST */,
+				2FB54B8E241D3B370042A698 /* SwiftTransform */,
+			);
 			productName = SwiftUISyntax;
 			productReference = 2F8AB24E24113DE900ABCE61 /* SwiftUISyntax */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +186,11 @@
 				Base,
 			);
 			mainGroup = 2F8AB24524113DE900ABCE61;
+			packageReferences = (
+				2F8AB25824113E3D00ABCE61 /* XCRemoteSwiftPackageReference "swift-syntax" */,
+				2FB54B8A241D3B220042A698 /* XCRemoteSwiftPackageReference "swift-ast" */,
+				2FB54B8D241D3B370042A698 /* XCRemoteSwiftPackageReference "swift-transform" */,
+			);
 			productRefGroup = 2F8AB24F24113DE900ABCE61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,7 +205,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB54BA0241D3B920042A698 /* FoundationMethodsTransformPlugin.swift in Sources */,
+				2F7816762413D4790066C9DC /* StructTranslator.swift in Sources */,
+				2FB359292415265E002218B8 /* ViewTypes.swift in Sources */,
+				2FB54BA2241D3B920042A698 /* XCTTestToJUnitTokenTransformPlugin.swift in Sources */,
+				2FB54BA5241D3B920042A698 /* AST+Operations.swift in Sources */,
+				2FB54BA8241D3B920042A698 /* TransformOptions.swift in Sources */,
+				2FB54BA1241D3B920042A698 /* CommentsAdditionTransformPlugin.swift in Sources */,
+				2F781678241403700066C9DC /* ImportTranslator.swift in Sources */,
 				2F8AB25224113DE900ABCE61 /* main.swift in Sources */,
+				2FB54BA7241D3B920042A698 /* SwiftTokenizer.swift in Sources */,
+				2FB54B9F241D3B920042A698 /* TransformPlugin.swift in Sources */,
+				2FB54BA4241D3B920042A698 /* EnumDeclaration+Operations.swift in Sources */,
+				2FB54BA3241D3B920042A698 /* Token+Operations.swift in Sources */,
+				2FB54BA6241D3B920042A698 /* KotlinTokenizer.swift in Sources */,
+				2FB54B9E241D3B920042A698 /* TokenizationResult.swift in Sources */,
+				2FB54BAA241D5F770042A698 /* VisitTokens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +384,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F8AB25824113E3D00ABCE61 /* XCRemoteSwiftPackageReference "swift-syntax" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-syntax.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.50100.0;
+			};
+		};
+		2FB54B8A241D3B220042A698 /* XCRemoteSwiftPackageReference "swift-ast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yanagiba/swift-ast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.19.9;
+			};
+		};
+		2FB54B8D241D3B370042A698 /* XCRemoteSwiftPackageReference "swift-transform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yanagiba/swift-transform.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.19.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F8AB25924113E3D00ABCE61 /* SwiftSyntax */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F8AB25824113E3D00ABCE61 /* XCRemoteSwiftPackageReference "swift-syntax" */;
+			productName = SwiftSyntax;
+		};
+		2FB54B8B241D3B220042A698 /* SwiftAST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FB54B8A241D3B220042A698 /* XCRemoteSwiftPackageReference "swift-ast" */;
+			productName = SwiftAST;
+		};
+		2FB54B8E241D3B370042A698 /* SwiftTransform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FB54B8D241D3B370042A698 /* XCRemoteSwiftPackageReference "swift-transform" */;
+			productName = SwiftTransform;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F8AB24624113DE900ABCE61 /* Project object */;
 }
