@@ -58,6 +58,7 @@
 		2FB54B9C241D3B920042A698 /* SwiftTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTokenizer.swift; sourceTree = "<group>"; };
 		2FB54B9D241D3B920042A698 /* TransformOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOptions.swift; sourceTree = "<group>"; };
 		2FB54BA9241D5F770042A698 /* VisitTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitTokens.swift; sourceTree = "<group>"; };
+		2FB54BAB241D60930042A698 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 				2FB359282415265E002218B8 /* ViewTypes.swift */,
 				2FB54BA9241D5F770042A698 /* VisitTokens.swift */,
 				2F781677241403700066C9DC /* ImportTranslator.swift */,
+				2FB54BAB241D60930042A698 /* README.md */,
 			);
 			path = SwiftUISyntax;
 			sourceTree = "<group>";
