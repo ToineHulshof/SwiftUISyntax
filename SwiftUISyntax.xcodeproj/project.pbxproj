@@ -78,6 +78,7 @@
 		2F8AB24524113DE900ABCE61 = {
 			isa = PBXGroup;
 			children = (
+				2FB54BAB241D60930042A698 /* README.md */,
 				2F8AB25024113DE900ABCE61 /* SwiftUISyntax */,
 				2FB54B90241D3B920042A698 /* SwiftKotlinFramework */,
 				2F8AB24F24113DE900ABCE61 /* Products */,
@@ -100,7 +101,6 @@
 				2FB359282415265E002218B8 /* ViewTypes.swift */,
 				2FB54BA9241D5F770042A698 /* VisitTokens.swift */,
 				2F781677241403700066C9DC /* ImportTranslator.swift */,
-				2FB54BAB241D60930042A698 /* README.md */,
 			);
 			path = SwiftUISyntax;
 			sourceTree = "<group>";
