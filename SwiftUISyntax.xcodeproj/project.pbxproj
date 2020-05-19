@@ -25,7 +25,8 @@
 		2FB54BA6241D3B920042A698 /* KotlinTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9B241D3B920042A698 /* KotlinTokenizer.swift */; };
 		2FB54BA7241D3B920042A698 /* SwiftTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9C241D3B920042A698 /* SwiftTokenizer.swift */; };
 		2FB54BA8241D3B920042A698 /* TransformOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54B9D241D3B920042A698 /* TransformOptions.swift */; };
-		2FB54BAA241D5F770042A698 /* VisitTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54BA9241D5F770042A698 /* VisitTokens.swift */; };
+		2FB54BAA241D5F770042A698 /* SwiftUIVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB54BA9241D5F770042A698 /* SwiftUIVisitor.swift */; };
+		2FB7AE28244752A30005515C /* MainActivityText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB7AE27244752A30005515C /* MainActivityText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,8 +58,9 @@
 		2FB54B9B241D3B920042A698 /* KotlinTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KotlinTokenizer.swift; sourceTree = "<group>"; };
 		2FB54B9C241D3B920042A698 /* SwiftTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTokenizer.swift; sourceTree = "<group>"; };
 		2FB54B9D241D3B920042A698 /* TransformOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOptions.swift; sourceTree = "<group>"; };
-		2FB54BA9241D5F770042A698 /* VisitTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitTokens.swift; sourceTree = "<group>"; };
+		2FB54BA9241D5F770042A698 /* SwiftUIVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIVisitor.swift; sourceTree = "<group>"; };
 		2FB54BAB241D60930042A698 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FB7AE27244752A30005515C /* MainActivityText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,10 @@
 			children = (
 				2F8AB25124113DE900ABCE61 /* main.swift */,
 				2F7816752413D4790066C9DC /* StructTranslator.swift */,
-				2FB359282415265E002218B8 /* ViewTypes.swift */,
-				2FB54BA9241D5F770042A698 /* VisitTokens.swift */,
+				2FB7AE27244752A30005515C /* MainActivityText.swift */,
 				2F781677241403700066C9DC /* ImportTranslator.swift */,
+				2FB54BA9241D5F770042A698 /* SwiftUIVisitor.swift */,
+				2FB359282415265E002218B8 /* ViewTypes.swift */,
 			);
 			path = SwiftUISyntax;
 			sourceTree = "<group>";
@@ -221,8 +224,9 @@
 				2FB54BA4241D3B920042A698 /* EnumDeclaration+Operations.swift in Sources */,
 				2FB54BA3241D3B920042A698 /* Token+Operations.swift in Sources */,
 				2FB54BA6241D3B920042A698 /* KotlinTokenizer.swift in Sources */,
+				2FB7AE28244752A30005515C /* MainActivityText.swift in Sources */,
 				2FB54B9E241D3B920042A698 /* TokenizationResult.swift in Sources */,
-				2FB54BAA241D5F770042A698 /* VisitTokens.swift in Sources */,
+				2FB54BAA241D5F770042A698 /* SwiftUIVisitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +349,8 @@
 		2F8AB25624113DE900ABCE61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwiftUISyntax/SwiftUISyntax.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8567NX96Y6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -356,6 +362,8 @@
 		2F8AB25724113DE900ABCE61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwiftUISyntax/SwiftUISyntax.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8567NX96Y6;
 				ENABLE_HARDENED_RUNTIME = YES;
