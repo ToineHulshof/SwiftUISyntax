@@ -5,4 +5,4 @@ This tool tries to help you, as an iOS engineer to translate your SwiftUI projec
 # Usage
 
 - Clone repository
-- run `./main ~/Path/to/project`
+- run `./main.swift ~/Path/to/project`
